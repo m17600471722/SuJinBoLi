@@ -1,0 +1,38 @@
+.Global-color {
+ .setting{
+   height: 100%;
+   background: #f2f2f2;
+ }
+ .main_box{
+  margin: (20/75)+rem 0;
+ }
+ .versions{
+   border-bottom: 1px solid #f2f2f2;
+ }
+ .box{
+   padding: (28/75)+rem (36/75)+rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #fff;
+   p{
+     font-size: (30/75)+rem;
+     color: #0A0A0A ;
+   }
+   img{
+    width: 0.3rem;
+   }
+   span{
+     font-size: (28/75)+rem;
+    color: #A3A3A3 ; 
+   }
+ }
+ .btn{
+   height: (100/75)+rem;
+   line-height: (100/75)+rem;
+   font-size: (32/75)+rem;
+   color: #FF6C53;
+   text-align: center;
+   background: #fff;
+ }
+}

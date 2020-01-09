@@ -1,0 +1,19 @@
+.Global-color {
+  .logIn-loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    opacity: 0.3;
+    z-index: 99999999;
+  }
+  .main{
+    padding: (50/75)+rem (40/75)+rem;
+    p{
+      font-size: (28/75)+rem;
+      line-height: (50/75)+rem;
+    }
+  }
+}

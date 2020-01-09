@@ -1,0 +1,58 @@
+
+.main{
+  background: #3CA0FF;
+  color: #fff;
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: (36/75)+rem;
+    padding: (23/75)+rem (38/75)+rem;
+    img{
+      width: (38/75)+rem;
+      height: 32/75+rem;
+    }
+  }
+  .company{   
+    padding:0 (38/75)+rem (50/75)+rem (38/75)+rem;
+    border-bottom: 1px solid #fff;
+    p:first-child{
+      font-size: (36/75)+rem;
+      margin-top: (60/75)+rem;
+    }
+    p:last-child{
+      font-size: (28/75)+rem;
+      margin-top: (20/75)+rem;
+    }
+  }
+  .figure{
+    display: flex;
+    justify-content: space-between;
+    padding: (36/75)+rem (39/75)+rem;
+    text-align: center;
+    p:first-child{
+      font-size: (28/75)+rem;
+      color: #9dcfff;
+    }
+    p:last-child{
+      font-size: (34/75)+rem;
+      margin-top: (18/75)+rem;
+    }
+  }
+}
+.financing{
+  display: flex;
+  justify-content: space-between;
+  padding: (50/75)+rem (70/75)+rem;
+  text-align: center;
+  img{
+    width: (88/75)+rem;
+    height: (88/75)+rem;
+    margin: 0 auto;
+  }
+  p{
+    font-size: (32/75)+rem;
+    color: #34373F;
+    margin-top: (18/75)+rem;
+  }
+}
